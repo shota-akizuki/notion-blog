@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <feed xmlns="http://www.w3.org/2005/Atom">
+    <title>My Blog</title>
+    <subtitle>Blog</subtitle>
+    <link href="/atom" rel="self" type="application/rss+xml"/>
+    <link href="/" />
+    <updated>2020-12-24T08:55:32.473Z</updated>
+    <id>My Notion Blog</id>
+    <entry>
+      <id>/blog/my-first-post</id>
+      <title>Tips</title>
+      <link href="/blog/my-first-post"/>
+      <updated>2020-12-23T15:00:00.971Z</updated>
+      <content type="xhtml">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          
+          <p class="more">
+            <a href="/blog/my-first-post">Read more</a>
+          </p>
+        </div>
+      </content>
+      <author><name>Shota Akizuki</name></author>
+    </entry>
+  </feed>
