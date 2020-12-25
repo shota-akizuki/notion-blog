@@ -85,5 +85,7 @@ To run the project locally you need to follow steps 1 and 2 of [deploying](#depl
 - Luis Alvarez [@luis_fades](https://twitter.com/luis_fades) for design help and bug catching
 
 ## 環境変数を失った時のコマンド
+```
 $ export NOTION_TOKEN=[YOUR-NOTION-TOKEN]
 $ export BLOG_INDEX_ID=[YOUR-BLOG-INDEX-ID]
+```
