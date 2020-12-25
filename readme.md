@@ -90,3 +90,4 @@ To run the project locally you need to follow steps 1 and 2 of [deploying](#depl
 $ export NOTION_TOKEN=[YOUR-NOTION-TOKEN]
 $ export BLOG_INDEX_ID=[YOUR-BLOG-INDEX-ID]
 ```
+→.envファイルに宣言で問題なさそう
