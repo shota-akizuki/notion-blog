@@ -34,7 +34,7 @@ export default () => (
 
       <h1 style={{ marginTop: 0, fontSize: 30 }}>Contact</h1>
 
-      <div className={contactStyles.name}>Shota - Engineer</div>
+      <div className={contactStyles.name}>Shota - Flutter / Web Developer</div>
 
       <div className={contactStyles.links}>
         {contacts.map(({ Comp, link, alt }) => {
