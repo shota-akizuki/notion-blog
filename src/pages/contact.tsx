@@ -29,12 +29,12 @@ export default () => (
     <Header titlePre="Contact" />
     <div className={sharedStyles.layout}>
       <div className={contactStyles.avatar}>
-        <img src="/pointed-star.png" alt="avatar with letters JJ" height={60} />
+        <img src="/pointed-star.png" alt="pointed_star" height={60} />
       </div>
 
       <h1 style={{ marginTop: 0, fontSize: 30 }}>Contact</h1>
 
-      <div className={contactStyles.name}>Shota - Flutter / Web Developer</div>
+      <div className={contactStyles.name}>Shota - Creator / Developer </div>
 
       <div className={contactStyles.links}>
         {contacts.map(({ Comp, link, alt }) => {
