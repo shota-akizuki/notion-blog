@@ -32,7 +32,7 @@ export default () => (
         <img src="/pointed-star.png" alt="pointed_star" height={60} />
       </div>
 
-      {/* <h1 style={{ marginTop: 0, fontSize: 30 }}>Contact</h1> */}
+      <h1 style={{ marginTop: 0, fontSize: 30 }}>Contact</h1>
 
       <div className={contactStyles.name}>Shota - Creator / Developer </div>
 
