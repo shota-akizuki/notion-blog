@@ -8,7 +8,7 @@ export default () => (
       <img
         src="/pointed-star.png"
         height="40"
-        width="50"
+        width="120"
         alt="Vercel + Notion"
       />
       <h1>Shota Developer Blog</h1>
