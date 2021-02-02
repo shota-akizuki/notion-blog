@@ -5,18 +5,8 @@ export default () => (
   <>
     <Header titlePre="Home" />
     <div className={sharedStyles.layout}>
-      <img
-        src="/pointed-star.png"
-        height="30"
-        width="120"
-        alt="Vercel + Notion"
-      />
-      <h1>Shota Developer Web</h1>
-
-      <div className="explanation">
-        {/* <p>ここに何かしら説明を書くかも</p> */}
-        <p></p>
-      </div>
+      <img src="/pointed-star.png" width="100" alt="pointed-star" />
+      <h1>Shota Developer Web Site</h1>
     </div>
   </>
 )
