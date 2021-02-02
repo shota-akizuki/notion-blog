@@ -7,11 +7,11 @@ export default () => (
     <div className={sharedStyles.layout}>
       <img
         src="/pointed-star.png"
-        height="40"
+        height="30"
         width="120"
         alt="Vercel + Notion"
       />
-      <h1>Shota Developer Blog</h1>
+      <h1>Shota Developer Web</h1>
 
       <div className="explanation">
         {/* <p>ここに何かしら説明を書くかも</p> */}
