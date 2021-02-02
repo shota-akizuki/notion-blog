@@ -4,21 +4,21 @@
     <subtitle>Blog</subtitle>
     <link href="/atom" rel="self" type="application/rss+xml"/>
     <link href="/" />
-    <updated>2020-12-25T17:11:41.961Z</updated>
+    <updated>2021-02-02T12:50:09.023Z</updated>
     <id>My Notion Blog</id>
     <entry>
-      <id>/blog/my-first-post</id>
-      <title>First Post</title>
-      <link href="/blog/my-first-post"/>
-      <updated>2020-12-23T15:00:00.118Z</updated>
+      <id>/blog/スマホでflutter-privacy-policy</id>
+      <title>スマホでFlutter Privacy Policy</title>
+      <link href="/blog/スマホでflutter-privacy-policy"/>
+      <updated>2021-02-01T15:00:00.573Z</updated>
       <content type="xhtml">
         <div xmlns="http://www.w3.org/1999/xhtml">
           
           <p class="more">
-            <a href="/blog/my-first-post">Read more</a>
+            <a href="/blog/スマホでflutter-privacy-policy">Read more</a>
           </p>
         </div>
       </content>
-      
+      <author><name>Shota Akizuki</name></author>
     </entry>
   </feed>
