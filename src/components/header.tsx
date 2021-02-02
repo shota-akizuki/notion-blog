@@ -7,6 +7,7 @@ import styles from '../styles/header.module.css'
 const navItems: { label: string; page?: string; link?: string }[] = [
   { label: 'Home', page: '/' },
   { label: 'Blog', page: '/blog' },
+  { label: 'Products', page: '/products' },
   { label: 'Contact', page: '/contact' },
 ]
 
@@ -24,10 +25,6 @@ export default ({ titlePre = '' }) => {
           content="An example Next.js site using Notion for the blog"
         />
         <meta name="og:title" content="Shota Developer Blog" />
-        <meta property="og:image" content={ogImageUrl} />
-        <meta name="twitter:site" content="@shota_akizuki" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content={ogImageUrl} />
       </Head>
       <ul>
         {navItems.map(({ label, page, link }) => (
