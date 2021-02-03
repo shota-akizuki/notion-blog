@@ -17,7 +17,7 @@ export default () => (
         スマホでFlutter(iOS)
       </a>
       <p className={contactStyles.links}>
-        （KBOYのFlutter大学共同開発チームで開発）
+        Flutterウィジェット体験アプリ / KBOYのFlutter大学共同開発チームで制作
       </p>
     </div>
   </>
