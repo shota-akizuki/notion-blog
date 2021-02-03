@@ -5,8 +5,7 @@ export default () => (
   <>
     <Header titlePre="Home" />
     <div className={sharedStyles.layout}>
-      <img src="/pointed-star.png" width="100" alt="pointed-star" />
-      <h1>Shota Developer Web Site</h1>
+      <h1>Shota Akizuki Web Site</h1>
     </div>
   </>
 )
