@@ -13,12 +13,16 @@ export default () => (
       <a
         href="https://apps.apple.com/jp/app/%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%A7flutter/id1551776146"
         className={contactStyles.links}
+        target="_blank"
       >
         スマホでFlutter(iOS)
       </a>
-      <p className={contactStyles.links}>
-        Flutterウィジェット体験アプリ / KBOYのFlutter大学共同開発チームで制作
-      </p>
+      <a
+        className={contactStyles.links}
+        href="https://qiita.com/shota0609akizuki/items/c276caae464a85391060"
+      >
+        KBOYのFlutter大学共同開発チームで制作
+      </a>
     </div>
   </>
 )
