@@ -6,6 +6,9 @@ export default () => (
     <Header titlePre="Skills" />
 
     <div className={sharedStyles.layout}>
+      <h1 style={{ marginTop: 0, fontSize: 22 }}>
+        Flutter&Dart App Development
+      </h1>
       <div>
         <img
           src="/flutter-logo.png"
@@ -14,9 +17,6 @@ export default () => (
           width="400"
         />
       </div>
-      <h1 style={{ marginTop: 0, fontSize: 24 }}>
-        Flutter&Dart App Development
-      </h1>
     </div>
   </>
 )
