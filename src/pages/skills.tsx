@@ -7,7 +7,7 @@ export default () => (
 
     <div className={sharedStyles.layout}>
       <h1 style={{ marginTop: 0, fontSize: 22 }}>
-        Flutter&Dart App Development
+        Flutter Mobile App Development
       </h1>
       <div>
         <img
@@ -16,6 +16,10 @@ export default () => (
           height="300"
           width="400"
         />
+      </div>
+      <h1 style={{ marginTop: 0, fontSize: 22 }}>React Web Development</h1>
+      <div>
+        <img src="/logo-og.png" alt="react-logo" height="300" width="320" />
       </div>
     </div>
   </>
