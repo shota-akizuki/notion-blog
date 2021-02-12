@@ -4,8 +4,14 @@ import sharedStyles from '../styles/shared.module.css'
 import contactStyles from '../styles/contact.module.css'
 import GitHub from '../components/svgs/github'
 import Envelope from '../components/svgs/envelope'
+import Instagram from '../components/svgs/instagram'
 
 const contacts = [
+  {
+    Comp: Instagram,
+    alt: 'instagram icon',
+    link: 'https://www.instagram.com/shota_akizuki',
+  },
   {
     Comp: GitHub,
     alt: 'github icon',
