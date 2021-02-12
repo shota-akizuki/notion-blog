@@ -6,7 +6,7 @@ export default () => (
   <>
     <Header titlePre="Products" />
     <div className={sharedStyles.layout}>
-      <h1 style={{ marginTop: 0, fontSize: 30 }}>Products</h1>
+      <h1 style={{ marginTop: 0, fontSize: 24 }}>Products</h1>
       <div className={contactStyles.avatar}>
         <img src="/widget_app.png" alt="pointed_star" height="30" width="120" />
       </div>
@@ -17,6 +17,7 @@ export default () => (
       >
         スマホでFlutter(iOS)
       </a>
+      <p className={contactStyles.name}>App Store開発ツールランキング2位</p>
       <a
         className={contactStyles.links}
         href="https://qiita.com/shota0609akizuki/items/c276caae464a85391060"
