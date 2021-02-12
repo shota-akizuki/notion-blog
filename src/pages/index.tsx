@@ -6,11 +6,12 @@ export default () => (
   <>
     <Header titlePre="Home" />
     <div className={sharedStyles.layout}>
-      <h1 style={{ fontSize: 32 }}>Shota Akizuki Developer Web Site</h1>
+      <h1 style={{ fontSize: 40 }}>Shota Akizuki</h1>
+      <h2 style={{ marginTop: 54 }}>- Developer Website -</h2>
       <div className={sharedStyles.layout}>
-        <h1 style={{ marginTop: 54, fontSize: 24 }}>
+        <h2 style={{ marginTop: 60, fontSize: 24 }}>
           Flutter Mobile App Development
-        </h1>
+        </h2>
         <div>
           <img
             src="/flutter-logo.png"
@@ -19,7 +20,7 @@ export default () => (
             width="400"
           />
         </div>
-        <h1 style={{ marginTop: 24, fontSize: 24 }}>React Web Development</h1>
+        <h2 style={{ marginTop: 24, fontSize: 24 }}>React Web Development</h2>
         <div>
           <img
             src="/logo-og.png"

@@ -33,7 +33,9 @@ export default () => (
 
       <h1 style={{ marginTop: 0, fontSize: 24 }}>Contact</h1>
 
-      <div className={contactStyles.name}>Shota - Creator / Developer </div>
+      <div className={contactStyles.name}>
+        Shota - Mobile / Web App Developer{' '}
+      </div>
 
       <div className={contactStyles.links}>
         {contacts.map(({ Comp, link, alt }) => {
