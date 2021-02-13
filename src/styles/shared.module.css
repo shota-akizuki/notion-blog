@@ -9,3 +9,10 @@
 .layout h2 {
   text-align: center;
 }
+
+.title {
+  font-size: 54px;
+  background-image: linear-gradient(90deg, #0b68ea 0%, #1cd5cf 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}

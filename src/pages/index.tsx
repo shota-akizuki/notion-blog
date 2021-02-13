@@ -7,7 +7,7 @@ export default () => (
   <>
     <Header titlePre="Home" />
     <div className={sharedStyles.layout}>
-      <h1 style={{ fontSize: 48 }}>Shota Akizuki</h1>
+      <h1 className={sharedStyles.title}>Shota Akizuki</h1>
       <h2 style={{ margin: 40 }}>- Developer Website -</h2>
       <div className={sharedStyles.layout}>
         <Divider style={{ margin: 56 }} />
