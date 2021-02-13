@@ -5,8 +5,14 @@ import contactStyles from '../styles/contact.module.css'
 import GitHub from '../components/svgs/github'
 import Envelope from '../components/svgs/envelope'
 import Instagram from '../components/svgs/instagram'
+import Twitter from '../components/svgs/twitter'
 
 const contacts = [
+  {
+    Comp: Twitter,
+    alt: 'twitter icon',
+    link: 'https://twitter.com/shota_akizuki',
+  },
   {
     Comp: Instagram,
     alt: 'instagram icon',
@@ -40,7 +46,7 @@ export default () => (
       <h1 style={{ marginTop: 0, fontSize: 24 }}>Contact</h1>
 
       <div className={contactStyles.name}>
-        Shota - Mobile / Web App Developer{' '}
+        Shota - Mobile / Web App Developer
       </div>
 
       <div className={contactStyles.links}>
