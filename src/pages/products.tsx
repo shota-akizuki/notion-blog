@@ -20,7 +20,6 @@ export default () => (
       <h2 className={productsStyles.name} style={{ fontSize: 16 }}>
         App Store開発ツールランキング2位獲得。
       </h2>
-
       <a
         target="_blank"
         className={productsStyles.links}
