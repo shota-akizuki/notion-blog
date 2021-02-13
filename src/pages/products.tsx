@@ -6,7 +6,7 @@ export default () => (
   <>
     <Header titlePre="Products" />
     <div className={sharedStyles.layout}>
-      <h1 style={{ marginTop: 0, fontSize: 24 }}>Products</h1>
+      <h2 style={{ fontSize: 24 }}>Products</h2>
       <div className={productsStyles.avatar}>
         <img src="/widget_app.png" alt="pointed_star" height="30" width="120" />
       </div>
@@ -17,11 +17,14 @@ export default () => (
       >
         スマホでFlutter(iOS)
       </a>
-      <p className={productsStyles.name}>
+      <h2 className={productsStyles.name} style={{ fontSize: 16 }}>
         App Store開発ツールランキング2位獲得。
-      </p>
+      </h2>
+
       <a
+        target="_blank"
         className={productsStyles.links}
+        style={{ fontSize: 16 }}
         href="https://qiita.com/shota0609akizuki/items/c276caae464a85391060"
       >
         KBOYのFlutter大学共同開発チームで制作

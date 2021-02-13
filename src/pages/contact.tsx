@@ -42,12 +42,10 @@ export default () => (
           width="120"
         />
       </div>
-
       <h1 style={{ marginTop: 0, fontSize: 24 }}>Contact</h1>
-
-      <div className={contactStyles.name}>
-        Shota - Mobile / Web App Developer
-      </div>
+      <h2 className={contactStyles.name}>
+        Shota Akizuki - Mobile / Web App Developer
+      </h2>
 
       <div className={contactStyles.links}>
         {contacts.map(({ Comp, link, alt }) => {
