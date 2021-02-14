@@ -9,35 +9,28 @@ export default () => (
     <div className={sharedStyles.layout}>
       <h1 className={sharedStyles.title}>Shota Akizuki</h1>
       <h2 style={{ margin: 40 }}>- Developer Website -</h2>
-      <div className={sharedStyles.layout}>
-        <Divider style={{ margin: 48 }} />
-
-        <h2 style={{ marginTop: 24, fontSize: 24 }}>React Web Development</h2>
-        <div>
-          <img
-            src="/logo-og.png"
-            alt="react-logo"
-            height="300"
-            width="320"
-            style={{ marginTop: 24 }}
-          />
-        </div>
-        <Next className={sharedStyles.next} />
-        <h2
-          style={{ marginTop: 60, fontSize: 24 }}
-          className={contactStyles.name}
-        >
-          Flutter Mobile App Development
-        </h2>
-        <div>
-          <img
-            src="/flutter-logo.png"
-            alt="flutter-logo"
-            height="300"
-            width="400"
-            style={{ marginTop: -16 }}
-          />
-        </div>
+      <Divider style={{ margin: 48 }} />
+      <h2 style={{ marginTop: 24, fontSize: 24 }}>React Web Development</h2>
+      <div>
+        <img
+          src="/logo-og.png"
+          alt="react-logo"
+          height="300"
+          width="320"
+          style={{ marginTop: 24 }}
+        />
+      </div>
+      <Next className={sharedStyles.next} />
+      <h2 style={{ fontSize: 24 }} className={contactStyles.name}>
+        Flutter Mobile App Development
+      </h2>
+      <div>
+        <img
+          src="/flutter-logo.png"
+          alt="flutter-logo"
+          width="400"
+          style={{ marginBottom: -64 }}
+        />
       </div>
     </div>
   </>

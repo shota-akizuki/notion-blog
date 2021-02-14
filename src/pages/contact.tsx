@@ -44,7 +44,7 @@ export default () => (
       </div>
       <h1 className={contactStyles.title}>Contact</h1>
       <h2 className={contactStyles.name}>
-        Shota Akizuki - Mobile / Web App Developer
+        Shota Akizuki - Mobile App / Web Developer
       </h2>
 
       <div className={contactStyles.links}>
