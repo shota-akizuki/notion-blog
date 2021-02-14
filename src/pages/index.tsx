@@ -10,7 +10,7 @@ export default () => (
       <h1 className={sharedStyles.title}>Shota Akizuki</h1>
       <h2 style={{ margin: 40 }}>- Developer Website -</h2>
       <div className={sharedStyles.layout}>
-        <Divider style={{ margin: 56 }} />
+        <Divider style={{ margin: 48 }} />
         <h2
           style={{ marginTop: 60, fontSize: 24 }}
           className={contactStyles.name}

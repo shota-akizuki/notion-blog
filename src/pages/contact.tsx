@@ -42,7 +42,7 @@ export default () => (
           width="120"
         />
       </div>
-      <h1 style={{ marginTop: 0, fontSize: 24 }}>Contact</h1>
+      <h1 className={contactStyles.title}>Contact</h1>
       <h2 className={contactStyles.name}>
         Shota Akizuki - Mobile / Web App Developer
       </h2>

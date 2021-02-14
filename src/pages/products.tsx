@@ -1,12 +1,12 @@
 import Header from '../components/header'
 import sharedStyles from '../styles/shared.module.css'
-import productsStyles from '../styles/contact.module.css'
+import productsStyles from '../styles/products.module.css'
 
 export default () => (
   <>
     <Header titlePre="Products" />
     <div className={sharedStyles.layout}>
-      <h2 style={{ fontSize: 24 }}>Products</h2>
+      <h1 className={productsStyles.title}>Products</h1>
       <div className={productsStyles.avatar}>
         <img src="/widget_app.png" alt="pointed_star" height="30" width="120" />
       </div>
@@ -17,16 +17,19 @@ export default () => (
       >
         スマホでFlutter(iOS)
       </a>
-      <h2 className={productsStyles.name} style={{ fontSize: 16 }}>
-        App Store開発ツールランキング2位獲得。
-      </h2>
+      <p className={productsStyles.name} style={{ fontSize: 16 }}>
+        App Store開発ツールランキング2位
+      </p>
+      <p className={productsStyles.name} style={{ fontSize: 16 }}>
+        FlutterによるWidget体験アプリ
+      </p>
       <a
         target="_blank"
         className={productsStyles.links}
         style={{ fontSize: 16 }}
         href="https://qiita.com/shota0609akizuki/items/c276caae464a85391060"
       >
-        KBOYのFlutter大学共同開発チームで制作
+        KBOYのFlutter大学共同開発チームで制作!
       </a>
     </div>
   </>
