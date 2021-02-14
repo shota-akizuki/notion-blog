@@ -7,6 +7,7 @@ export default () => (
     <Header titlePre="Products" />
     <div className={sharedStyles.layout}>
       <h1 className={productsStyles.title}>Products</h1>
+
       <div className={productsStyles.avatar}>
         <img src="/widget_app.png" alt="pointed_star" height="30" width="120" />
       </div>
@@ -17,19 +18,27 @@ export default () => (
       >
         スマホでFlutter(iOS)
       </a>
-      <p className={productsStyles.name} style={{ fontSize: 16 }}>
-        App Store開発ツールランキング2位
-      </p>
-      <p className={productsStyles.name} style={{ fontSize: 16 }}>
-        FlutterによるWidget体験アプリ
-      </p>
+      <h2 className={productsStyles.name} style={{ fontSize: 16 }}>
+        App Store開発ツールランキング2位！
+      </h2>
+      <h2 className={productsStyles.name} style={{ fontSize: 16 }}>
+        FlutterによるWidget体験アプリを、
+      </h2>
+      <a
+        target="_blank"
+        className={productsStyles.links}
+        style={{ fontSize: 16 }}
+        href="https://kboyflutteruniv.com/"
+      >
+        KBOYのFlutter大学共同開発チームで制作！
+      </a>
       <a
         target="_blank"
         className={productsStyles.links}
         style={{ fontSize: 16 }}
         href="https://qiita.com/shota0609akizuki/items/c276caae464a85391060"
       >
-        KBOYのFlutter大学共同開発チームで制作!
+        →Qiita記事はこちら
       </a>
     </div>
   </>
