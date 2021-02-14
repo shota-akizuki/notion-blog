@@ -1,8 +1,8 @@
 import Link from 'next/link'
 import Header from '../../components/header'
-
 import blogStyles from '../../styles/blog.module.css'
 import sharedStyles from '../../styles/shared.module.css'
+import Divider from '@material-ui/core/Divider'
 
 import {
   getBlogLink,
@@ -51,6 +51,10 @@ export default ({ posts = [], preview }) => {
   return (
     <>
       <Header titlePre="Blog" />
+      <div className={sharedStyles.layout}>
+        <h1 className={blogStyles.title}>Privacy Policy</h1>
+        <Divider style={{ margin: 48 }} />
+      </div>
       {preview && (
         <div className={blogStyles.previewAlertContainer}>
           <div className={blogStyles.previewAlert}>
