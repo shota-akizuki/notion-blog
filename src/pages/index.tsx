@@ -2,7 +2,7 @@ import Header from '../components/header'
 import sharedStyles from '../styles/shared.module.css'
 import Divider from '@material-ui/core/Divider'
 import contactStyles from '../styles/contact.module.css'
-
+import Next from '../components/svgs/nextjs-3'
 export default () => (
   <>
     <Header titlePre="Home" />
@@ -11,6 +11,18 @@ export default () => (
       <h2 style={{ margin: 40 }}>- Developer Website -</h2>
       <div className={sharedStyles.layout}>
         <Divider style={{ margin: 48 }} />
+
+        <h2 style={{ marginTop: 24, fontSize: 24 }}>React Web Development</h2>
+        <div>
+          <img
+            src="/logo-og.png"
+            alt="react-logo"
+            height="300"
+            width="320"
+            style={{ marginTop: 24 }}
+          />
+        </div>
+        <Next className={sharedStyles.next} />
         <h2
           style={{ marginTop: 60, fontSize: 24 }}
           className={contactStyles.name}
@@ -23,16 +35,7 @@ export default () => (
             alt="flutter-logo"
             height="300"
             width="400"
-          />
-        </div>
-        <h2 style={{ marginTop: 24, fontSize: 24 }}>React Web Development</h2>
-        <div>
-          <img
-            src="/logo-og.png"
-            alt="react-logo"
-            height="300"
-            width="320"
-            style={{ marginTop: 16 }}
+            style={{ marginTop: -16 }}
           />
         </div>
       </div>
