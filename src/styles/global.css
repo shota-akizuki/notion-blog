@@ -365,7 +365,7 @@ footer span {
   font-size: 16px;
 }
 
-/* 以下ダークモード用 */
+/* 以下ダークモード実装時に追加 */
 :root {
   --color-text: #000;
   --color-button-text: #fff;

@@ -43,9 +43,7 @@ export default () => (
         />
       </div>
       <h1 className={contactStyles.title}>Contact</h1>
-      <h2 className={contactStyles.name}>
-        Shota Akizuki - Mobile App / Web Developer
-      </h2>
+      <h2 className={contactStyles.name}>Shota Akizuki - Web Developer</h2>
 
       <div className={contactStyles.links}>
         {contacts.map(({ Comp, link, alt }) => {
