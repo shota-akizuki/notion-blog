@@ -1,7 +1,6 @@
 import Header from '../components/header'
 import sharedStyles from '../styles/shared.module.css'
 import Divider from '@material-ui/core/Divider'
-import contactStyles from '../styles/contact.module.css'
 import Next from '../components/svgs/nextjs-3'
 
 export default () => {
@@ -23,7 +22,7 @@ export default () => {
           />
         </div>
         <Next className={sharedStyles.next} />
-        <h2 style={{ fontSize: 24 }} className={contactStyles.name}>
+        <h2 style={{ fontSize: 24 }} className={sharedStyles.name}>
           Flutter Mobile App Development
         </h2>
         <div>

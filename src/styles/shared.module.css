@@ -9,7 +9,10 @@
 .layout h2 {
   text-align: center;
 }
-
+.name {
+  margin-top: 0px;
+  text-align: center;
+}
 .next {
   height: 128px;
   display: block;
