@@ -9,7 +9,12 @@ export default () => {
   return (
     <footer className={FooterStyles.layout}>
       <Divider style={{ margin: 48 }} />
-      <span>Copyright©Shota Akizuki All rights reserved.</span>
+      <div style={{ marginTop: -32 }}>
+        <span>Copyright©Shota Akizuki All rights reserved.</span>
+      </div>
+      <div style={{ marginTop: -16 }}>
+        <span>Built with Vercel App.</span>
+      </div>
       <div>
         <DynamicComponent />
       </div>
