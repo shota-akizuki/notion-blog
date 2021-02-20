@@ -2,7 +2,6 @@ import Header from '../components/header'
 import sharedStyles from '../styles/shared.module.css'
 import productsStyles from '../styles/products.module.css'
 import Divider from '@material-ui/core/Divider'
-import { makeStyles } from '@material-ui/core/styles'
 
 export default () => {
   return (

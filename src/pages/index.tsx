@@ -11,28 +11,22 @@ export default () => {
         <h1 className={sharedStyles.title}>Shota Akizuki</h1>
         <h2 style={{ margin: 40 }}>- Developer Website -</h2>
         <Divider style={{ margin: 48 }} />
-        <h2 style={{ marginTop: 24, fontSize: 24 }}>React Web Development</h2>
+        <h2 style={{ marginTop: 24, fontSize: 24 }}>
+          Next.js & React Web Development
+        </h2>
         <div>
           <img
             src="/logo-og.png"
             alt="react-logo"
             height="300"
             width="320"
-            style={{ marginTop: 24 }}
+            style={{ marginTop: 32 }}
           />
         </div>
-        <Next className={sharedStyles.next} />
-        <h2 style={{ fontSize: 24 }} className={sharedStyles.name}>
-          Flutter Mobile App Development
-        </h2>
-        <div>
-          <img
-            src="/flutter-logo.png"
-            alt="flutter-logo"
-            width="400"
-            style={{ marginBottom: -64 }}
-          />
-        </div>
+        <Next
+          style={{ marginTop: 96, marginBottom: -16 }}
+          className={sharedStyles.next}
+        />
       </div>
     </>
   )
