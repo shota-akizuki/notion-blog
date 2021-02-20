@@ -12,7 +12,7 @@ export default () => {
         <h2 style={{ margin: 40 }}>- Developer Website -</h2>
         <Divider style={{ margin: 48 }} />
         <h2 style={{ marginTop: 24, fontSize: 24 }}>
-          Next.js & React Web Development
+          React & Next.js Web Development
         </h2>
         <div>
           <img

@@ -63,6 +63,7 @@ export default () => {
         <h2 className={productsStyles.text}>
           個人でアーティスト活動をしています。
         </h2>
+        <h2 className={productsStyles.text}>（現在は活動をお休み中）</h2>
         <h2 className={productsStyles.text}>
           Next.jsで作成したシンプルなウェブサイトです。
         </h2>
