@@ -12,12 +12,21 @@ export default () => {
         <h1 className={sharedStyles.title}>Shota Akizuki</h1>
         <h2 style={{ margin: 40 }}>- Developer Website -</h2>
         <Divider style={{ margin: 48 }} />
-        <h2 style={{ marginTop: 24, fontSize: 24 }}>
+        <h2
+          style={{
+            marginTop: 24,
+            fontSize: 24,
+          }}
+        >
           React & Next.js Web Development
         </h2>
         <ReactLogo style={{ marginTop: 80 }} className={sharedStyles.logo} />
         <NextLogo
-          style={{ marginTop: 80, marginBottom: -16 }}
+          style={{
+            marginTop: 80,
+            marginBottom: -16,
+            fill: 'var(--color-text)',
+          }}
           className={sharedStyles.logo}
         />
       </div>

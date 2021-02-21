@@ -5,6 +5,7 @@ import contactStyles from '../styles/contact.module.css'
 import GitHub from '../components/svgs/github'
 import Envelope from '../components/svgs/envelope'
 import Instagram from '../components/svgs/instagram'
+import PointedStar from '../components/svgs/pointed-star'
 import Twitter from '../components/svgs/twitter'
 
 const contacts = [
@@ -34,21 +35,21 @@ export default () => (
   <>
     <Header titlePre="Contact" />
     <div className={sharedStyles.layout}>
-      <div className={contactStyles.avatar}>
-        <img
-          src="/pointed-star.png"
-          alt="pointed_star"
-          height="30"
-          width="120"
-        />
-      </div>
+      <PointedStar
+        className={sharedStyles.logo}
+        style={{ height: 120, fill: 'var(--color-text)', marginBottom: 16 }}
+      />
       <h1 className={contactStyles.title}>Contact</h1>
       <h2 className={contactStyles.name}>Shota Akizuki - Web Developer</h2>
-
       <div className={contactStyles.links}>
         {contacts.map(({ Comp, link, alt }) => {
           return (
-            <ExtLink key={link} href={link} aria-label={alt}>
+            <ExtLink
+              key={link}
+              href={link}
+              aria-label={alt}
+              style={{ fill: 'var(--color-text)' }}
+            >
               <Comp height={32} />
             </ExtLink>
           )
