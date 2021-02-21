@@ -40,7 +40,7 @@ export default () => (
         style={{ height: 120, fill: 'var(--color-text)', marginBottom: 16 }}
       />
       <h1 className={contactStyles.title}>Contact</h1>
-      <h2 className={contactStyles.name}>Shota Akizuki - Web Developer</h2>
+      <h2 className={contactStyles.name}>Shota Akizuki - Developer</h2>
       <div className={contactStyles.links}>
         {contacts.map(({ Comp, link, alt }) => {
           return (
