@@ -11,7 +11,11 @@ export default () => {
         <h1 className={productsStyles.title}>Products</h1>
 
         <div className={productsStyles.avatar}>
-          <img src="/widget_app.png" alt="pointed_star" width="120" />
+          <img
+            src="/widget_app_transparent.png"
+            alt="pointed_star"
+            width="120"
+          />
         </div>
         <a
           href="https://apps.apple.com/jp/app/%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%A7flutter/id1551776146"
