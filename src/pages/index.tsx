@@ -1,7 +1,8 @@
 import Header from '../components/header'
 import sharedStyles from '../styles/shared.module.css'
 import Divider from '@material-ui/core/Divider'
-import Next from '../components/svgs/nextjs-3'
+import NextLogo from '../components/svgs/nextjs-3'
+import ReactLogo from '../components/svgs/react-2'
 
 export default () => {
   return (
@@ -14,18 +15,10 @@ export default () => {
         <h2 style={{ marginTop: 24, fontSize: 24 }}>
           React & Next.js Web Development
         </h2>
-        <div>
-          <img
-            src="/logo-og.png"
-            alt="react-logo"
-            height="300"
-            width="320"
-            style={{ marginTop: 32 }}
-          />
-        </div>
-        <Next
-          style={{ marginTop: 96, marginBottom: -16 }}
-          className={sharedStyles.next}
+        <ReactLogo style={{ marginTop: 80 }} className={sharedStyles.logo} />
+        <NextLogo
+          style={{ marginTop: 80, marginBottom: -16 }}
+          className={sharedStyles.logo}
         />
       </div>
     </>
