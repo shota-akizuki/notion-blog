@@ -18,15 +18,18 @@ export default () => {
             fontSize: 24,
           }}
         >
-          React & Next.js Web Development
+          Next.js & React Web Development
         </h2>
-        <ReactLogo style={{ marginTop: 80 }} className={sharedStyles.logo} />
         <NextLogo
           style={{
             marginTop: 80,
-            marginBottom: -16,
+
             fill: 'var(--color-text)',
           }}
+          className={sharedStyles.logo}
+        />
+        <ReactLogo
+          style={{ marginTop: 80, marginBottom: -16 }}
           className={sharedStyles.logo}
         />
       </div>
