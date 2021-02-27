@@ -58,7 +58,7 @@ export default () => {
           width="320"
         />
         <a
-          href="https://nextjs-shota-blog.vercel.app/"
+          href="https://shota-akizuki.ml/"
           className={productsStyles.links}
           target="_blank"
         >
