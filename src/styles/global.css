@@ -281,10 +281,13 @@ h2 {
 }
 
 p {
-  color: #555;
+  color: #888;
   font-weight: 400;
   font-size: 0.94rem;
   line-height: 1.7;
+}
+ul {
+  color: #333;
 }
 pre {
   white-space: pre;
@@ -345,19 +348,19 @@ footer span {
 /* 以下ダークモード実装時に追加 */
 :root {
   --color-text: #000;
-  --color-button-text: #fff;
+  --color-button-text: #888;
   --color-bg: #fff;
   --color-code-bg: #fafafa;
   --color-border: #eaeaea;
-  --color-link: #0070f3;
+  --color-link: #dee1e7;
 }
 /* 追記 */
 :root[data-theme='dark'] {
   --color-text: #fff;
-  --color-bg: #333;
+  --color-bg: #0e121d;
   --color-code-bg: #2d2d2d;
   --color-border: #dfdfdf;
-  --color-link: #f38300;
+  --color-link: #181f2a;
 }
 html,
 body {

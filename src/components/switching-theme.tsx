@@ -1,3 +1,5 @@
+import DarkIcon from '../components/svgs/darkicon'
+import LightIcon from '../components/svgs/lighticon'
 /**
  * ローカルストレージにカラーモードの識別子: dark/lightを登録する.
  * htmlタグにdata-theme属性を付与して、見た目の切り替えを実現する.
@@ -31,7 +33,7 @@ export default function SwitchingTheme() {
   return (
     <>
       <button type="button" onClick={changeTheme}>
-        Switching Theme
+        Switching theme
       </button>
       <style jsx>{`
         button {

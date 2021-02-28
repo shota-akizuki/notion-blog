@@ -3,6 +3,7 @@ import sharedStyles from '../styles/shared.module.css'
 import Divider from '@material-ui/core/Divider'
 import NextLogo from '../components/svgs/nextjs-3'
 import ReactLogo from '../components/svgs/react-2'
+import Flutter from '../components/svgs/flutter'
 
 export default () => {
   return (
@@ -23,13 +24,24 @@ export default () => {
         <NextLogo
           style={{
             marginTop: 80,
-
             fill: 'var(--color-text)',
           }}
           className={sharedStyles.logo}
         />
-        <ReactLogo
-          style={{ marginTop: 80, marginBottom: -16 }}
+        <ReactLogo style={{ marginTop: 80 }} className={sharedStyles.logo} />
+        <h2
+          style={{
+            marginTop: 64,
+            fontSize: 24,
+          }}
+        >
+          Flutter Mobile App Development
+        </h2>
+        <Flutter
+          style={{
+            marginTop: 56,
+            marginBottom: -16,
+          }}
           className={sharedStyles.logo}
         />
       </div>
