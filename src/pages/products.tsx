@@ -10,8 +10,34 @@ export default () => {
       <div className={sharedStyles.layout}>
         <h1 className={productsStyles.title}>Products</h1>
 
+        <img
+          style={{ marginTop: 40 }}
+          src="/senju_bosatsu.jpg"
+          alt="senju_bosatsu"
+          height="100"
+          width="320"
+        />
+        <a
+          href="https://shota-akizuki.ml/"
+          className={productsStyles.links}
+          target="_blank"
+        >
+          Shota Akizuki Artist Website
+        </a>
+        <h2 className={productsStyles.text}>
+          個人でアーティスト活動をしています。
+        </h2>
+        <h2 className={productsStyles.text}>（現在は活動をお休み中）</h2>
+        <h2 className={productsStyles.text}>
+          Next.jsで作成したシンプルなウェブサイトです。
+        </h2>
+        <Divider
+          variant="middle"
+          style={{ marginTop: 64, marginLeft: 400, marginRight: 400 }}
+        />
         <div className={productsStyles.avatar}>
           <img
+            style={{ marginTop: 56 }}
             src="/widget_app_transparent.png"
             alt="pointed_star"
             width="120"
@@ -41,36 +67,11 @@ export default () => {
         <a
           target="_blank"
           className={productsStyles.links}
-          style={{ fontSize: 16 }}
+          style={{ fontSize: 16, marginBottom: -16 }}
           href="https://qiita.com/shota0609akizuki/items/c276caae464a85391060"
         >
           →Qiita記事はこちら
         </a>
-        <Divider
-          variant="middle"
-          style={{ marginTop: 40, marginLeft: 400, marginRight: 400 }}
-        />
-        <img
-          style={{ marginTop: 54 }}
-          src="/senju_bosatsu.jpg"
-          alt="senju_bosatsu"
-          height="100"
-          width="320"
-        />
-        <a
-          href="https://shota-akizuki.ml/"
-          className={productsStyles.links}
-          target="_blank"
-        >
-          Shota Akizuki Artist Website
-        </a>
-        <h2 className={productsStyles.text}>
-          個人でアーティスト活動をしています。
-        </h2>
-        <h2 className={productsStyles.text}>（現在は活動をお休み中）</h2>
-        <h2 className={productsStyles.text}>
-          Next.jsで作成したシンプルなウェブサイトです。
-        </h2>
       </div>
     </>
   )

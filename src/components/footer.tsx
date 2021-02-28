@@ -1,5 +1,4 @@
 import Divider from '@material-ui/core/Divider'
-import dynamic from 'next/dynamic'
 import FooterStyles from '../styles/footer.module.css'
 import ThemeChanger from './ThemeChanger'
 
