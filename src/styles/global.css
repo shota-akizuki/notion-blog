@@ -287,7 +287,7 @@ p {
   line-height: 1.7;
 }
 ul {
-  color: #333;
+  color: #888;
 }
 pre {
   white-space: pre;
@@ -348,7 +348,6 @@ footer span {
 /* 以下ダークモード実装時に追加 */
 :root {
   --color-text: #000;
-  --color-button-text: #888;
   --color-bg: #fff;
   --color-code-bg: #fafafa;
   --color-border: #eaeaea;
@@ -379,15 +378,11 @@ body {
 }
 
 button {
-  position: relative;
+  padding: 3px;
   height: 40px;
   width: 40px;
   border: 0;
   cursor: pointer;
-  outline: none;
-  padding: 10px 15px;
-  appearance: none;
   background-color: var(--color-link);
-  border-radius: 5px;
-  color: var(--color-button-text);
+  border-radius: 3px;
 }
