@@ -14,8 +14,7 @@ export default () => {
           style={{ marginTop: 40 }}
           src="/senju_bosatsu.jpg"
           alt="senju_bosatsu"
-          height="100"
-          width="320"
+          width="360"
         />
         <a
           href="https://shota-akizuki.ml/"
