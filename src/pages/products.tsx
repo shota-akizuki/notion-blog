@@ -30,47 +30,6 @@ export default () => {
         <h2 className={productsStyles.text}>
           React × Next.jsで作成したシンプルなウェブサイトです。
         </h2>
-        <Divider
-          variant="middle"
-          style={{ marginTop: 64, marginLeft: 400, marginRight: 400 }}
-        />
-        <div className={productsStyles.avatar}>
-          <img
-            style={{ marginTop: 56 }}
-            src="/widget_app_transparent.png"
-            alt="pointed_star"
-            width="120"
-          />
-        </div>
-        <a
-          href="https://apps.apple.com/jp/app/%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%A7flutter/id1551776146"
-          className={productsStyles.links}
-          target="_blank"
-        >
-          スマホでFlutter(iOS)
-        </a>
-        <h2 className={productsStyles.text}>
-          App Store開発ツールランキング2位！
-        </h2>
-        <h2 className={productsStyles.text}>
-          FlutterによるWidget体験アプリを、
-        </h2>
-        <a
-          target="_blank"
-          className={productsStyles.links}
-          style={{ fontSize: 16 }}
-          href="https://kboyflutteruniv.com/"
-        >
-          KBOYのFlutter大学共同開発チームで制作！
-        </a>
-        <a
-          target="_blank"
-          className={productsStyles.links}
-          style={{ fontSize: 16, marginBottom: -16 }}
-          href="https://qiita.com/shota0609akizuki/items/c276caae464a85391060"
-        >
-          →Qiita記事はこちら
-        </a>
       </div>
     </>
   )
