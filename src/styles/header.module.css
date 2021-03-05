@@ -17,7 +17,7 @@
 }
 
 .header :global(a) {
-  color: var(--accents-3);
+  color: var(--color-accents-3);
   font-weight: 400;
 }
 

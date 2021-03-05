@@ -40,7 +40,9 @@
 .title {
   margin-top: 0px;
   font-size: 32px;
-  background-image: linear-gradient(90deg, #e73e3c 35%, #f5b827 65%);
+  /* orangeにしたいとき */
+  /* background-image: linear-gradient(90deg, #e73e3c 35%, #f5b827 65%); */
+  background-image: linear-gradient(90deg, #6a00ba 35%, #f30070 65%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: black;

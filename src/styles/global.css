@@ -263,7 +263,7 @@ h2 {
   font-weight: 300;
   font-size: 1.25rem;
   letter-spacing: -0.02rem;
-  color: var(--accents-3);
+  color: var(--color-accents-3);
 }
 
 .video {
@@ -345,9 +345,11 @@ footer span {
   font-size: 16px;
 }
 
-/* 以下ダークモード実装時に追加 */
+/*Dark Theme用*/
 :root {
   --color-text: #000;
+  --color-accents-2: #777777;
+  --color-accents-3: #888;
   --color-bg: #fff;
   --color-code-bg: #fafafa;
   --color-border: #eaeaea;
@@ -356,7 +358,9 @@ footer span {
 /* 追記 */
 :root[data-theme='dark'] {
   --color-text: #fff;
-  --color-bg: #0e121d;
+  --color-accents-2: #fff;
+  --color-accents-3: #fff;
+  --color-bg: #000;
   --color-code-bg: #2d2d2d;
   --color-border: #dfdfdf;
   --color-link: #181f2a;
