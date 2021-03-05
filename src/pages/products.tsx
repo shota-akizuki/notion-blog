@@ -8,7 +8,6 @@ export default () => {
       <Header titlePre="Products" />
       <div className={sharedStyles.layout}>
         <h1 className={productsStyles.title}>Products</h1>
-
         <img
           style={{ marginTop: 40 }}
           src="/senju_bosatsu.jpg"

@@ -6,8 +6,8 @@ import styles from '../styles/header.module.css'
 
 const navItems: { label: string; page?: string; link?: string }[] = [
   { label: 'Home', page: '/' },
-  { label: 'Products', page: '/products' },
   { label: 'Contact', page: '/contact' },
+  // { label: 'Products', page: '/products' },
   // { label: 'Privacy', page: '/blog' },
 ]
 
