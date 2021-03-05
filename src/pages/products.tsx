@@ -1,7 +1,6 @@
 import Header from '../components/header'
 import sharedStyles from '../styles/shared.module.css'
 import productsStyles from '../styles/products.module.css'
-import Divider from '@material-ui/core/Divider'
 
 export default () => {
   return (
@@ -14,9 +13,10 @@ export default () => {
           style={{ marginTop: 40 }}
           src="/senju_bosatsu.jpg"
           alt="senju_bosatsu"
-          width="360"
+          width="352"
         />
         <a
+          style={{ marginTop: 40 }}
           href="https://shota-akizuki.ml/"
           className={productsStyles.links}
           target="_blank"
