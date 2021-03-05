@@ -15,19 +15,13 @@ export default () => {
           width="352"
         />
         <a
-          style={{ marginTop: 40 }}
+          style={{ marginTop: 24, fontSize: 24 }}
           href="https://shota-akizuki.ml/"
           className={productsStyles.links}
           target="_blank"
         >
-          Shota Akizuki Artist Website
+          Shota Akizuki / Artist Website
         </a>
-        <h2 className={productsStyles.text}>
-          個人でアーティスト活動をしています。
-        </h2>
-        <h2 className={productsStyles.text}>
-          React × Next.jsで作成したシンプルなウェブサイトです。
-        </h2>
       </div>
     </>
   )
