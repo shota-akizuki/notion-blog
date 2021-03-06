@@ -12,7 +12,7 @@ export default () => {
           style={{ marginTop: 40 }}
           src="/senju_bosatsu.jpg"
           alt="senju_bosatsu"
-          width="352"
+          width="338"
         />
         <a
           style={{ marginTop: 24, fontSize: 24 }}
