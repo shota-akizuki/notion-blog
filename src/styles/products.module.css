@@ -40,9 +40,9 @@
 }
 
 .title {
-  font-size: 48px;
+  font-size: 56px;
   margin-top: 0px;
-  background-image: linear-gradient(90deg, #0b68ea 35%, #1cd5cf 65%);
+  background-image: linear-gradient(90deg, #e73e3c 35%, #f5b827 65%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: black;

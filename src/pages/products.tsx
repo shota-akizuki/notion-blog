@@ -15,7 +15,7 @@ export default () => {
           width="338"
         />
         <a
-          style={{ marginTop: 24, fontSize: 24 }}
+          style={{ marginTop: 40, fontSize: 24 }}
           href="https://shota-akizuki.ml/"
           className={productsStyles.links}
           target="_blank"
