@@ -10,7 +10,7 @@ export default () => {
       <Header titlePre="Home" />
       <div className={sharedStyles.layout}>
         <h1 className={sharedStyles.title}>Shota Akizuki</h1>
-        <h2 style={{ margin: 40 }}>- Developer Website -</h2>
+        <h2 style={{ margin: 40 }}>Minimalistic. Practical. Beautiful.</h2>
         <Divider style={{ margin: 48 }} />
         <h2
           style={{
