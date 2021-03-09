@@ -13,6 +13,10 @@
   margin-top: 0px;
   text-align: center;
 }
+.mantra {
+  color: var(--color-accents-3);
+  font-size: 1rem;
+}
 .logo {
   height: 112px;
   display: block;
